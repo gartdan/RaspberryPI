@@ -43,7 +43,7 @@ def say_something(something):
 	subprocess.call(["./button-to-speech/speech.sh", something])
 
 
-print('Waiting for inpput')
+print('Waiting for input')
 try:  
     while True:
             if GPIO.input(pin)== False:
