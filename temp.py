@@ -1,7 +1,7 @@
 import os, subprocess, glob, time
 import RPi.GPIO as GPIO
 
-pin = 18
+pin = 17
 GPIO.setmode(GPIO.BCM)
 GPIO.setup(pin, GPIO.IN, pull_up_down=GPIO.PUD_UP)
 
